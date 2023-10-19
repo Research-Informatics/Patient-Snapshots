@@ -1,0 +1,17 @@
+# Site settings
+title: BMC Research Informatics
+email: cdw@bmc.org
+description: Description of data available. 
+baseurl: ""
+repository: "https://research-informatics.github.io/SDOH/"
+permalinks: pretty
+defaults:
+  -
+    scope:
+      path: "" # Apply to all files
+    values:
+      layout: "default"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
